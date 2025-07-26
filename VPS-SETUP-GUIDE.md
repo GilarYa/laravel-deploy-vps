@@ -254,7 +254,7 @@ nano /etc/nginx/sites-available/laravel-app
 Isi dengan:
 ```nginx
 server {
-    listen 8080;
+    listen 60001;
     server_name 123.123.123.12 yourdomain.com www.yourdomain.com;
     root /var/www/laravel-app/public;
 
